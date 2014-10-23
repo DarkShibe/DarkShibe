@@ -1,0 +1,11 @@
+[Protocol]
+exec=darkshibe-qt '%u'
+protocol=darkshibe
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

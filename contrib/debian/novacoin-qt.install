@@ -1,0 +1,5 @@
+darkshibe-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin80.xpm usr/share/pixmaps
+debian/darkshibe-qt.desktop usr/share/applications
+debian/darkshibe-qt.protocol usr/share/kde4/services/

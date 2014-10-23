@@ -1,0 +1,2 @@
+debian/bin/darkshibed usr/bin
+src/darkshibed usr/lib/darkshibe
