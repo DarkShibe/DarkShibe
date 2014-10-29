@@ -428,7 +428,7 @@ void BitcoinGUI::createMenuBar()
 void BitcoinGUI::createToolBars()
 {
     mainIcon = new QLabel (this);
-    //mainIcon->setPixmap(QPixmap(":images/dsb-vertical"));
+    mainIcon->setPixmap(QPixmap(":images/dsb-vertical"));
     mainIcon->show();
 
     mainToolbar = addToolBar(tr("Tabs toolbar"));
@@ -970,14 +970,14 @@ void BitcoinGUI::mainToolbarOrientation(Qt::Orientation orientation)
 {
     if(orientation == Qt::Horizontal)
     {
-        //mainIcon->setPixmap(QPixmap(":images/dsb-horizontal"));
+        mainIcon->setPixmap(QPixmap(":images/dsb-horizontal"));
         mainIcon->show();
         mainToolbar->setStyleSheet(HORIZONTAL_TOOLBAR_STYLESHEET);
         messageAction->setIconText(tr("&Messages"));
     }
     else
     {
-        //mainIcon->setPixmap(QPixmap(":images/dsb-vertical"));
+        mainIcon->setPixmap(QPixmap(":images/dsb-vertical"));
         mainIcon->show();
 
         mainToolbar->setStyleSheet(VERTICAL_TOOBAR_STYLESHEET);

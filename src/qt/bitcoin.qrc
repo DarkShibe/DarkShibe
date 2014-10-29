@@ -50,6 +50,8 @@
         <file alias="dsb-vertical">res/images/dsb-vertical.png</file>
         <file alias="dsb-horizontal">res/images/dsb-horizontal.png</file>
         <file>res/images/darkshibe.png</file>
+        <file>res/images/darkshibe_SPLASH.png</file>
+        <file>res/images/darkshibemoon.gif</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="update_spinner">res/movies/update_spinner.mng</file>
